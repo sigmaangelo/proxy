@@ -1,0 +1,13 @@
+[package]
+name = "proxy"
+version = "1.0.0"
+
+[fs]
+# Make the whole project available to the runtime
+"/" = "."
+
+[dependencies]
+node = "*"
+
+[script]
+start = "node index.js"
